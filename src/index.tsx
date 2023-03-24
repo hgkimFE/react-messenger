@@ -4,7 +4,6 @@ import { Provider } from "react-redux";
 import { store } from "./app/store";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import "./styles/index.css";
 import { worker } from "./mocks/browser";
 
 if (process.env.NODE_ENV === "development") {
